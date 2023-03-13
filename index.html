@@ -2,28 +2,10 @@
 <html lang="ja">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WVQ58WM');
-    </script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WEBデザイナー修行中のキョンのページです。">
+    <meta name="description" content="WEBデザイナー修行中のいしはらきょうこのページです。">
     <meta name="robots" content="noindex">
     <title>KYON web design キョン ウェブデザイン</title>
     <link rel="stylesheet" href="css/style.css">
@@ -36,16 +18,10 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WVQ58WM" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <!-- header -->
     <header>
         <div class="header_box">
             <h1>KYON</h1>
-
             <h2>web<br>design</h2>
         </div>
         <nav>
@@ -56,18 +32,14 @@
             </ul>
         </nav>
     </header>
-
     <!-- ABOUT content -->
     <main>
         <section>
             <h3 id="section1">ABOUT</h3>
-
             <div class="about">
                 <div class="main_container">
-
                     <div class="introduce">
                         <ul>
-
                             <li><span>&#12312;name&#12313;...&nbsp;</span><strong>キョン</strong></li>
                             <li><span>&#12312;birth&#12313;...&nbsp;</span>3月4日</li>
                             <li><span>&#12312;blood type&#12313;...&nbsp;</span>B</li>
@@ -76,7 +48,6 @@
                         </ul>
                         <br>
                         <p><span>
-
                                 2022年10月~12月スクールにてWEBデザイン学習。<br>
                                 HTML CSS JavaScript(jQuery)を習得<br>
                                 その他 PHP Wordpressを独学で学習<br>
@@ -85,7 +56,6 @@
                         <br>
                     </div>
                 </div>
-
                 <div class="image_box">
                     <div class="image_box1">
                         <img src="img/kyon.png" alt="石原の画像">
@@ -93,11 +63,8 @@
                 </div>
             </div>
         </section>
-
-
         <!-- WORK コンテンツ -->
         <section>
-
             <h3 id="section2">WORK</h3>
             <div class="work">
                 <div class="work_container">
@@ -114,57 +81,58 @@
                 </div>
             </div>
             </div>
-
         </section>
-
-
         <!-- CONTACTコンテンツ -->
         <section>
             <h3 id="section3">CONTACT</h3>
-
             <div class="contact">
                 <div class="contact_container">
-
-                    <form action="" method="post">
+                    <form
+                        action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSek8HygprUK986KBafsjW-uHDSy4262L5WyQrLEuTKDvfP-ag/formResponse"
+                        method="post" target="hidden_iframe" onsubmit="submitted=true;">
                         <dl>
                             <div class="form-item">
                                 <dt>お名前</dt>
-                                <dd><input type="text" placeholder="今日田 きょん" name="userName"></dd>
+                                <dd><input type="text" placeholder="今日田　きょん" name="entry.229139057" required></dd>
                             </div>
                             <div class="form-item">
                                 <dt>電話番号</dt>
-                                <dd><input type="tel" placeholder="00-0000-0000" name="telNumber"></dd>
+                                <dd><input type="tel" placeholder="00-0000-0000" name="entry.1269781352" required></dd>
                             </div>
                             <div class="form-item">
                                 <dt>メールアドレス</dt>
-                                <dd><input type="email" placeholder="Kyon@mail" name="userEmail"></dd>
+                                <dd><input type="email" placeholder="kyonnnnn@mail" name="entry.260173775" required>
+                                </dd>
                             </div>
                             <div class="form-item">
                                 <dt>お問合せ種別</dt>
                                 <dd>
-                                    <select name="messageType">
+                                    <select name="entry.60131946" required>
                                         <option hidden>-- 選択してください --</option>
                                         <option value="HP作成依頼">HP作成依頼</option>
                                         <option value="料金について">料金について</option>
                                         <option value="その他お問合せ">その他お問合せ</option>
-
                                     </select>
                                 </dd>
                             </div>
                             <div class="form-item">
                                 <dt>お問合せ内容</dt>
-                                <dd><textarea name="message" placeholder="入力してください"></textarea></dd>
+                                <dd><textarea name="entry.792170440" placeholder="入力してください" required></textarea></dd>
                             </div>
                         </dl>
                         <div class="form-submit">
                             <input type="submit" value="送信する" class="submit-button">
                         </div>
                     </form>
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+                        onload="if(submitted)  {window.location='thanks.html';}"></iframe>
                 </div>
             </div>
         </section>
     </main>
-
     <!-- footer -->
     <footer>
         <hr>
@@ -172,8 +140,6 @@
             <p class="footer">Copyright 2022 KYON WEB DESIGN</p>
         </small>
     </footer>
-
-
 </body>
 
 </html>
