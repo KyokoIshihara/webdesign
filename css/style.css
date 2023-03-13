@@ -441,6 +441,7 @@ hr {
     margin-top: 30px;
     display: block;
     transition: transform .3s ease;
+    text-decoration: none;
 }
 
 .thanks_container a:hover{
