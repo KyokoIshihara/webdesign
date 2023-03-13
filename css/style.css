@@ -437,16 +437,15 @@ hr {
 .thanks_container a {
     text-transform: uppercase;
     font-weight: bold;
-    text-decoration: wavy underline;
     font-size: 18px;
     margin-top: 30px;
     display: block;
     transition: transform .3s ease;
-    -webkit-text-decoration: wavy underline;
 }
 
 .thanks_container a:hover{
-    transform: scale(1.5);
+    -webkit-text-decoration: wavy underline;
+    text-decoration: wavy underline;
 }
 
 .thanks .image_box{
