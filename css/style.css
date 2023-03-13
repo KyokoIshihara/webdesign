@@ -129,7 +129,7 @@ ul li a:active {
 
 /* ABOUTコンテンツ */
 
-.about {
+.about{
     max-width: 700px;
     width: 90%;
     padding: 0 20px;
@@ -394,4 +394,61 @@ hr {
     }
 
     
+}
+
+/* thanksページ */
+.thanks__body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thanks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.thanks h3 {
+    text-transform: capitalize;
+}
+
+.thanks .main_container{
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.thanks_container {
+    padding: 20px;
+
+}
+
+.thanks li {
+    font-size: 18px;
+    list-style: none;
+}
+
+.thanks_container a {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: wavy underline;
+    font-size: 18px;
+    margin-top: 30px;
+    display: block;
+    transition: transform .3s ease;
+    -webkit-text-decoration: wavy underline;
+}
+
+.thanks_container a:hover{
+    transform: scale(1.5);
+}
+
+.thanks .image_box{
+    width: 150px;
 }
